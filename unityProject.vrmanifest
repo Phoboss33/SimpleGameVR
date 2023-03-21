@@ -2,13 +2,13 @@
   "source": "Unity",
   "applications": [
     {
-      "app_key": "application.generated.unity.myproject.exe",
+      "app_key": "application.generated.unity.mygame.exe",
       "launch_type": "url",
       "url": "steam://launch/",
       "action_manifest_path": "C:\\Users\\student\\Saved Games\\My project\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
-          "name": "My project [Testing]"
+          "name": "MyGame [Testing]"
         }
       }
     }
