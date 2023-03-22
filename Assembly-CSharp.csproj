@@ -145,6 +145,9 @@
     <Compile Include="Assets\Scripts\ParticleDestroy.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\ViveHandTracking\Scripts\GestureProvider.cs" />
+    <Compile Include="Assets\Scripts\TriggerSpawn.cs" />
+    <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\DestroyObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -10,6 +10,7 @@ public class TargetDestroy : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Obj"))
         {
+            TriggerSpawn.spawnCount--;
             Destroy(other.gameObject);
             transform.parent.GetComponent<SpawnTarget>().NewTarget();
 
