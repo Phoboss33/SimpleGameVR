@@ -8,9 +8,9 @@ public class TargetDestroy : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Obj"))
+        if (other.gameObject.CompareTag("VideoCard"))
         {
-            TriggerSpawn.spawnCount--;
+            TriggerSpawnGPU.spawnCount--;
             Destroy(other.gameObject);
             transform.parent.GetComponent<SpawnTarget>().NewTarget();
 

@@ -6,6 +6,14 @@ TagManager:
   tags:
   - Target
   - Obj
+  - VideoCard
+  - Motherboard
+  - PSU
+  - SSD
+  - RAM
+  - CPU_cooler
+  - FAN
+  - CPU
   layers:
   - Default
   - TransparentFX
