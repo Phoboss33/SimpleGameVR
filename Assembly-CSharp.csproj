@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\SpawnObj.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\Scripts\PcParts\SpawnCPU_cooler.cs" />
     <Compile Include="Assets\AutoLOD\Demo\Scripts\GlobalSmoothRotation.cs" />
     <Compile Include="Assets\ViveHandTracking\Scripts\CustomGesture\DualHandGestureProducer.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
@@ -113,23 +114,28 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\ViveHandTracking\Sample\Scripts\ShowViveLogo.cs" />
+    <Compile Include="Assets\Scripts\PcParts\TriggerSpawnMotherboard.cs" />
     <Compile Include="Assets\AutoLOD\Scripts\Tools\MeshDecimatorUnityEngine.cs" />
     <Compile Include="Assets\ViveHandTracking\Sample\Scripts\CameraHeight.cs" />
+    <Compile Include="Assets\Scripts\PcParts\SpawnCPU.cs" />
     <Compile Include="Assets\ViveHandTracking\Scripts\Engine\ViveHandTrackingEngine.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\ViveHandTracking\Scripts\Utility\ThreadYieldInstruction.cs" />
     <Compile Include="Assets\ViveHandTracking\Sample\Scripts\PushColor.cs" />
+    <Compile Include="Assets\Scripts\PcParts\SpawnFan.cs" />
     <Compile Include="Assets\ViveHandTracking\Sample\Scripts\Draw.cs" />
     <Compile Include="Assets\ViveHandTracking\Sample\Scripts\RemoteGrab.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\MeshCombiner\Scripts\MeshCombiner.cs" />
     <Compile Include="Assets\Scripts\DestroyObject.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\Scripts\PcParts\SpawnPSU.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\ViveHandTracking\Scripts\Utility\HandRenderer.cs" />
     <Compile Include="Assets\Scripts\Sript.cs" />
     <Compile Include="Assets\Apartment_Door\Scripts\DoorController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\Scripts\PcParts\SpawnRAM.cs" />
     <Compile Include="Assets\Scripts\ShowFPS.cs" />
     <Compile Include="Assets\ShowConltrolles.cs" />
     <Compile Include="Assets\ViveHandTracking\Scripts\CustomGesture\SingleHandGestureProducer.cs" />
@@ -143,18 +149,12 @@
     <Compile Include="Assets\ViveHandTracking\Sample\Scripts\Grab.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\PcParts\SpawnSSD.cs" />
     <Compile Include="Assets\ViveHandTracking\Sample\Scripts\TriggerCallback.cs" />
     <Compile Include="Assets\ViveHandTracking\Scripts\CustomGesture\CustomGestureProvider.cs" />
     <Compile Include="Assets\Scripts\ParticleDestroy.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\ViveHandTracking\Scripts\GestureProvider.cs" />
-    <Compile Include="Assets\Scripts\PcParts\TriggerSpawnMotherboard.cs" />
-    <Compile Include="Assets\Scripts\PcParts\SpawnPSU.cs" />
-    <Compile Include="Assets\Scripts\PcParts\SpawnSSD.cs" />
-    <Compile Include="Assets\Scripts\PcParts\SpawnRAM.cs" />
-    <Compile Include="Assets\Scripts\PcParts\SpawnCPU_cooler.cs" />
-    <Compile Include="Assets\Scripts\PcParts\SpawnFan.cs" />
-    <Compile Include="Assets\Scripts\PcParts\SpawnCPU.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
