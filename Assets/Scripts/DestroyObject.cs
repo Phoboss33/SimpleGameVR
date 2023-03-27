@@ -15,6 +15,32 @@ public class DestroyObject : MonoBehaviour
         {
             TriggerSpawnMotherboard.spawnCount--;
             Destroy(other.gameObject);
+
+            if (TriggerCPU.inPlace == true)
+            {
+                TriggerCPU.inPlace = false;
+                SpawnCPU.spawnCount--;
+            }
+            if (TriggerGPU.inPlace == true)
+            {
+                TriggerGPU.inPlace = false;
+                TriggerSpawnGPU.spawnCount--;
+            }
+            if (TriggerCPU_cooler.inPlace == true)
+            {
+                TriggerCPU_cooler.inPlace = false;
+                SpawnCPU_cooler.spawnCount--;
+            }
+            if (TriggerRAM.inPlace == true)
+            {
+                TriggerRAM.inPlace = false;
+                SpawnRAM.spawnCount--;
+            }
+            if (TriggerRightRAM.inPlace == true)
+            {
+                TriggerRightRAM.inPlace = false;
+                SpawnRAM.spawnCount--;
+            }
         }
         if (other.gameObject.CompareTag("PSU"))
         {
@@ -46,6 +72,7 @@ public class DestroyObject : MonoBehaviour
             SpawnCPU.spawnCount--;
             Destroy(other.gameObject);
         }
+
         
     }
 }
