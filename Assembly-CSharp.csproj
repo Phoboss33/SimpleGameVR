@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\PcParts\TriggerSSD.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\ViveHandTracking\Scripts\Utility\EnumFlagsAttribute.cs" />
@@ -72,15 +73,19 @@
     <Compile Include="Assets\ViveHandTracking\Scripts\Utility\InputModule\HandInputRayPointer.cs" />
     <Compile Include="Assets\ViveHandTracking\Scripts\Engine\GestureResultExtension.cs" />
     <Compile Include="Assets\ViveHandTracking\Sample\Scripts\PinchLaser.cs" />
+    <Compile Include="Assets\Scripts\TriggerPSU.cs" />
     <Compile Include="Assets\Scripts\SpawnObj.cs" />
+    <Compile Include="Assets\Scripts\TriggerRightRAM.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\Scripts\PcParts\SpawnCPU_cooler.cs" />
+    <Compile Include="Assets\Scripts\Restart.cs" />
     <Compile Include="Assets\AutoLOD\Demo\Scripts\GlobalSmoothRotation.cs" />
     <Compile Include="Assets\ViveHandTracking\Scripts\CustomGesture\DualHandGestureProducer.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\EnterCaseTrigger.cs" />
     <Compile Include="Assets\Scripts\TargetDestroy.cs" />
     <Compile Include="Assets\Apartment_Door\Scripts\KeyController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
@@ -108,6 +113,7 @@
     <Compile Include="Assets\AutoLOD\Scripts\Tools\MeshUtility.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\Apartment_Door\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\PcParts\TriggerRAM.cs" />
     <Compile Include="Assets\ViveHandTracking\Scripts\Engine\EditorEngine.cs" />
     <Compile Include="Assets\ViveHandTracking\Sample\Scripts\DetectionStatus.cs" />
     <Compile Include="Assets\ViveHandTracking\Sample\Scripts\ObjectFactory.cs" />
@@ -142,6 +148,7 @@
     <Compile Include="Assets\Scripts\ShowFPS.cs" />
     <Compile Include="Assets\ShowConltrolles.cs" />
     <Compile Include="Assets\ViveHandTracking\Scripts\CustomGesture\SingleHandGestureProducer.cs" />
+    <Compile Include="Assets\Scripts\PcParts\MotherInCase.cs" />
     <Compile Include="Assets\ViveHandTracking\Scripts\Engine\HandTrackingEngine.cs" />
     <Compile Include="Assets\AutoLOD\Scripts\AutoLOD.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
@@ -151,6 +158,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\ViveHandTracking\Sample\Scripts\Grab.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+    <Compile Include="Assets\Scripts\PcParts\TriggerFan.cs" />
     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\PcParts\SpawnSSD.cs" />
     <Compile Include="Assets\ViveHandTracking\Sample\Scripts\TriggerCallback.cs" />
@@ -158,10 +166,6 @@
     <Compile Include="Assets\Scripts\ParticleDestroy.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\ViveHandTracking\Scripts\GestureProvider.cs" />
-    <Compile Include="Assets\Scripts\PcParts\TriggerRAM.cs" />
-    <Compile Include="Assets\Scripts\TriggerRightRAM.cs" />
-    <Compile Include="Assets\Scripts\PcParts\MotherInCase.cs" />
-    <Compile Include="Assets\EnterCaseTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -187,6 +191,7 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\AddOns\Mg3D_Hats\Hats_ReadMe.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\ViveHandTracking\Model\Cartoon\CartoonShader.shader" />

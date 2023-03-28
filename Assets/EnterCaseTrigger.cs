@@ -22,6 +22,7 @@ public class EnterCaseTrigger : MonoBehaviour
             Renderer renderer = GetComponent<Renderer>();
             renderer.enabled = !renderer.enabled;
         }
+
         if (TriggerCPU.inPlace == true)
         {
             proc.SetActive(true);
@@ -35,7 +36,7 @@ public class EnterCaseTrigger : MonoBehaviour
         if (TriggerCPU_cooler.inPlace == true)
         {
             cpu_cooler.SetActive(true);
-
+            cpu_cooler_Trigger.SetActive(false);
         }
     }
 }
