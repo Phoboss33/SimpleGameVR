@@ -408,6 +408,7 @@
 "Assets/Scripts/PcParts/TriggerSpawnGPU.cs"
 "Assets/Scripts/PcParts/TriggerSpawnMotherboard.cs"
 "Assets/Scripts/PcParts/TriggerSSD.cs"
+"Assets/Scripts/PcParts/TriggerText.cs"
 "Assets/Scripts/Restart.cs"
 "Assets/Scripts/ShowFPS.cs"
 "Assets/Scripts/SpawnObj.cs"

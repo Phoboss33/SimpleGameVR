@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TriggerCPU : MonoBehaviour
 {
@@ -18,6 +20,8 @@ public class TriggerCPU : MonoBehaviour
 
         if (other.gameObject.CompareTag("CPU"))
         {
+
+
             Trigger.SetActive(true);
             inPlace = true;
             prefabObj.SetActive(true);

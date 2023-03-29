@@ -563,6 +563,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabObj: {fileID: 4415073006108196303}
   Trigger: {fileID: 1958209519944121334}
+  TextMeshProUGUI: {fileID: 3006304434788760991, guid: 10c168f176fb79b4198bfb0bfebedd5b, type: 3}
 --- !u!1 &6456308701109769353
 GameObject:
   m_ObjectHideFlags: 0
