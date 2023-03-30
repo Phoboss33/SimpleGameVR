@@ -397,6 +397,7 @@
 "Assets/EnterCaseTrigger.cs"
 "Assets/Hand Menu/HandMenu.cs"
 "Assets/handmenubehavior.cs"
+"Assets/kek.cs"
 "Assets/LaserHand.cs"
 "Assets/MeshCombiner/Scripts/MeshCombiner.cs"
 "Assets/Scripts/DestroyObject.cs"

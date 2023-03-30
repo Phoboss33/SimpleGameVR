@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\SteamVR\Input\SteamVR_Behaviour_Single.cs" />
     <Compile Include="Assets\SteamVR\InteractionSystem\Samples\Scripts\CustomSkeletonHelper.cs" />
     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\Hand.cs" />
     <Compile Include="Assets\SteamVR\InteractionSystem\Hints\Scripts\ControllerButtonHints.cs" />
@@ -235,7 +236,6 @@
     <Compile Include="Assets\SteamVR\Input\SteamVR_Action_Boolean.cs" />
     <Compile Include="Assets\SteamVR\Input\SteamVR_DefaultAction.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Ears.cs" />
-    <Compile Include="Assets\SteamVR\Input\SteamVR_Behaviour_Single.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SteamVR\InteractionSystem\Samples\BuggyBuddy\Materials\LightCone.shader" />
