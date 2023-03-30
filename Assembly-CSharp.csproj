@@ -87,6 +87,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\EnterCaseTrigger.cs" />
     <Compile Include="Assets\Scripts\TargetDestroy.cs" />
+    <Compile Include="Assets\Scripts\PcParts\TriggerText.cs" />
     <Compile Include="Assets\Apartment_Door\Scripts\KeyController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\ViveHandTracking\Scripts\Utility\InputModule\HandInputModule.cs" />
@@ -166,7 +167,9 @@
     <Compile Include="Assets\Scripts\ParticleDestroy.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\ViveHandTracking\Scripts\GestureProvider.cs" />
-    <Compile Include="Assets\Scripts\PcParts\TriggerText.cs" />
+    <Compile Include="Assets\Hand Menu\HandMenu.cs" />
+    <Compile Include="Assets\Scripts\PcParts\TriggerHandMenuHead.cs" />
+    <Compile Include="Assets\handmenubehavior.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -965,6 +968,18 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.CoreUtils">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.CoreUtils.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Interaction.Toolkit">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

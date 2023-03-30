@@ -14,6 +14,7 @@ TagManager:
   - CPU_cooler
   - FAN
   - CPU
+  - Hand
   layers:
   - Default
   - TransparentFX
