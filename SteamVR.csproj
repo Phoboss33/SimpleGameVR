@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EE3E7ED4-9361-EFCD-CE16-36AAD147FB75}</ProjectGuid>
+    <ProjectGuid>{348A5CBB-6835-4470-2F90-7F777885D934}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>SteamVR</AssemblyName>
@@ -236,6 +236,8 @@
     <Compile Include="Assets\SteamVR\Input\SteamVR_Action_Boolean.cs" />
     <Compile Include="Assets\SteamVR\Input\SteamVR_DefaultAction.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Ears.cs" />
+    <Compile Include="Assets\SteamVR\OpenVRUnityXRPackage\Editor\OpenVRPackageInstaller.cs" />
+    <Compile Include="Assets\SteamVR\OpenVRUnityXRPackage\Editor\OpenVRSimpleJSON.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SteamVR\InteractionSystem\Samples\BuggyBuddy\Materials\LightCone.shader" />
@@ -925,7 +927,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
-      <Project>{97022B28-A9B6-DF9F-71F5-893607056D17}</Project>
+      <Project>{BA825B0F-A3FB-F35A-3F7E-C1B98220E0BF}</Project>
       <Name>SteamVR_Windows_EditorHelper</Name>
     </ProjectReference>
   </ItemGroup>
