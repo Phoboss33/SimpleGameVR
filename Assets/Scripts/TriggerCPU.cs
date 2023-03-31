@@ -20,14 +20,13 @@ public class TriggerCPU : MonoBehaviour
 
         if (other.gameObject.CompareTag("CPU"))
         {
-
-
             Trigger.SetActive(true);
             inPlace = true;
             prefabObj.SetActive(true);
             Renderer renderer = GetComponent<Renderer>();
             renderer.enabled = !renderer.enabled;
             Destroy(other.gameObject);
+            TouchTrigger.isProc = false;
         }
     }
 

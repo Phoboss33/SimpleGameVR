@@ -25,8 +25,8 @@ public class TriggerRightRAM : MonoBehaviour
             Renderer renderer = GetComponent<Renderer>();
             renderer.enabled = !renderer.enabled;
             Destroy(other.gameObject);
+            TouchTrigger.isRAM = false;
         }
     }
 }
 
-// перепестить текущий объект в координаты и отключить скрипты
