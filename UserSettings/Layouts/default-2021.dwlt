@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 69
+  controlID: 25
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -333,21 +333,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/PC
+    - Assets/Hand Menu
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Prefabs/PC
+  - Assets/Hand Menu
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\student\Saved Games\My project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: 66870000
-    m_LastClickedID: 34662
+    m_SelectedIDs: 16870000
+    m_LastClickedID: 34582
     m_ExpandedIDs: 00000000a6860000a8860000aa860000ac860000ae860000b0860000b2860000b4860000b6860000b8860000ba860000bc860000be860000c0860000c2860000c4860000c6860000c8860000ca860000cc860000ce860000d0860000d2860000d4860000d68600002487000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -407,18 +407,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000661d0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: hand menu
+      m_OriginalName: hand menu
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 33492
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
@@ -782,9 +782,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 17.72412, y: -6.9820766, z: 2.8880825}
+    m_Target: {x: -14.667218, y: -10.5541525, z: 7.328243}
     speed: 2
-    m_Value: {x: 17.72412, y: -6.9820766, z: 2.8880825}
+    m_Value: {x: -14.667218, y: -10.5541525, z: 7.328243}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -831,9 +831,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.16376753, y: -0.66381365, z: 0.15202124, w: -0.714004}
+    m_Target: {x: 0.25550842, y: -0.53371376, z: 0.17331477, w: 0.787534}
     speed: 2
-    m_Value: {x: 0.16376753, y: 0.66381365, z: -0.15202124, w: 0.714004}
+    m_Value: {x: 0.2537599, y: -0.536232, z: 0.17324264, w: 0.78616035}
   m_Size:
     m_Target: 10
     speed: 2
@@ -892,10 +892,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 78870000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 2efbffff
+      scrollPos: {x: 0, y: 301}
+      m_SelectedIDs: 1a6f0000
+      m_LastClickedID: 28442
+      m_ExpandedIDs: 0a7bfeffccefffffd8effffff6efffff04f0ffff0cf0ffff2efbfffff4ffffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
