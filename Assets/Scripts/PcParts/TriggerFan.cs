@@ -16,6 +16,7 @@ public class TriggerFan : MonoBehaviour
             Destroy(other.gameObject);
             Renderer renderer = GetComponent<Renderer>();
             renderer.enabled = !renderer.enabled;
+            TouchTrigger.isFAN = false;
         }
     }
 }

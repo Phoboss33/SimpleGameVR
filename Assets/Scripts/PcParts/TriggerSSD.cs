@@ -16,6 +16,7 @@ public class TriggerSSD : MonoBehaviour
             Destroy(other.gameObject);
             Renderer renderer = GetComponent<Renderer>();
             renderer.enabled = !renderer.enabled;
+            TouchTrigger.isSSD = false;
         }
     }
 }

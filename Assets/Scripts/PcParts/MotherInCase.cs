@@ -20,7 +20,8 @@ public class MotherInCase : MonoBehaviour
             other.gameObject.GetComponent<Rigidbody>().detectCollisions = false;
             other.gameObject.GetComponent<Rigidbody>().isKinematic = false;
             Destroy(other);
-            
+            TouchTrigger.isMother = false;
+
             //motherBoard.gameObject.GetComponent<>()
 
         }

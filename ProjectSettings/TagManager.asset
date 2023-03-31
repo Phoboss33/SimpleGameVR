@@ -15,6 +15,7 @@ TagManager:
   - FAN
   - CPU
   - Hand
+  - RAM1
   layers:
   - Default
   - TransparentFX

@@ -8,6 +8,10 @@ public class TouchTrigger : MonoBehaviour
     public static bool isMother = false;
     public static bool isVideocard = false;
     public static bool isRAM = false;
+    public static bool isCPU_fan = false;
+    public static bool isFAN = false;
+    public static bool isPSU = false;
+    public static bool isSSD = false;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -23,9 +27,25 @@ public class TouchTrigger : MonoBehaviour
         {
             isVideocard = true;
         }
-        if (other.gameObject.CompareTag("RAM"))
+        if (other.gameObject.CompareTag("RAM"))     // фикс бага с оперативкой, возможно добавить теги ram1 и ram2
         {
             isRAM = true;
+        }
+        if (other.gameObject.CompareTag("CPU_cooler"))
+        {
+            isCPU_fan = true;
+        }
+        if (other.gameObject.CompareTag("FAN"))
+        {
+            isFAN = true;
+        }
+        if (other.gameObject.CompareTag("PSU"))
+        {
+            isPSU = true;
+        }
+        if (other.gameObject.CompareTag("SSD"))
+        {
+            isSSD = true;
         }
     }
 
@@ -46,6 +66,26 @@ public class TouchTrigger : MonoBehaviour
         if (other.gameObject.CompareTag("RAM"))
         {
             isRAM = false;
+        }
+
+        if (other.gameObject.CompareTag("CPU_cooler"))
+        {
+            isCPU_fan = false;
+        }
+
+        if (other.gameObject.CompareTag("FAN"))
+        {
+            isFAN = false;
+        }
+
+        if (other.gameObject.CompareTag("PSU"))
+        {
+            isPSU = false;
+        }
+
+        if (other.gameObject.CompareTag("SSD"))
+        {
+            isSSD = false;
         }
     }
 }

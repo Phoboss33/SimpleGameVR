@@ -18,6 +18,7 @@ public class TriggerPSU : MonoBehaviour
             Destroy(other.gameObject);
             Renderer renderer = GetComponent<Renderer>();
             renderer.enabled = !renderer.enabled;
+            TouchTrigger.isPSU = false;
         }
     }
 }

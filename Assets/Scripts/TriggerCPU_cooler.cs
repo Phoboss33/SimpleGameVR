@@ -18,6 +18,7 @@ public class TriggerCPU_cooler : MonoBehaviour
             Renderer renderer = GetComponent<Renderer>();
             renderer.enabled = !renderer.enabled;
             Destroy(other.gameObject);
+            TouchTrigger.isCPU_fan = false;
         }
     }
 }
