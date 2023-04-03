@@ -48,13 +48,13 @@ public class EnterCaseTrigger : MonoBehaviour
         if (TriggerRightRAM.inPlace == true)
         {
             ram_r.SetActive(true);
-            ramTrigger_l.SetActive(false);
+            ramTrigger_r.SetActive(false);
         }
 
         if (TriggerRAM.inPlace == true)
         {
             ram_l.SetActive(true);
-            ramTrigger_r.SetActive(false);
+            ramTrigger_l.SetActive(false);
         }
     }
 }
