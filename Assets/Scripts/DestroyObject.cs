@@ -72,6 +72,11 @@ public class DestroyObject : MonoBehaviour
             SpawnCPU.spawnCount--;
             Destroy(other.gameObject);
         }
+        if (other.gameObject.CompareTag("CaseCover"))
+        {
+            SpawnCaseCover.spawnCount--;
+            Destroy(other.gameObject);
+        }
 
         
     }

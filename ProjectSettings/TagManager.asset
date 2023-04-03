@@ -16,6 +16,7 @@ TagManager:
   - CPU
   - Hand
   - RAM1
+  - CaseCover
   layers:
   - Default
   - TransparentFX

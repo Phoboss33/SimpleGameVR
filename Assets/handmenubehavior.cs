@@ -15,6 +15,7 @@ public class handmenubehavior : MonoBehaviour
     public GameObject textFAN;
     public GameObject textPSU;
     public GameObject textSSD;
+    public GameObject textNewDefault;
 
     public GameObject textDefault;
     // Start is called before the first frame update
@@ -32,6 +33,7 @@ public class handmenubehavior : MonoBehaviour
             textFAN.SetActive(false);
             textPSU.SetActive(false);
             textSSD.SetActive(false);
+            textNewDefault.SetActive(false);
         }
         else if (TouchTrigger.isMother)
         {
@@ -44,6 +46,7 @@ public class handmenubehavior : MonoBehaviour
             textFAN.SetActive(false);
             textPSU.SetActive(false);
             textSSD.SetActive(false);
+            textNewDefault.SetActive(false);
         }
         else if (TouchTrigger.isVideocard)
         {
@@ -56,6 +59,7 @@ public class handmenubehavior : MonoBehaviour
             textFAN.SetActive(false);
             textPSU.SetActive(false);
             textSSD.SetActive(false);
+            textNewDefault.SetActive(false);
         }
         else if (TouchTrigger.isRAM)
         {
@@ -68,6 +72,7 @@ public class handmenubehavior : MonoBehaviour
             textFAN.SetActive(false);
             textPSU.SetActive(false);
             textSSD.SetActive(false);
+            textNewDefault.SetActive(false);
         }
         else if (TouchTrigger.isCPU_fan)
         {
@@ -80,6 +85,7 @@ public class handmenubehavior : MonoBehaviour
             textFAN.SetActive(false);
             textPSU.SetActive(false);
             textSSD.SetActive(false);
+            textNewDefault.SetActive(false);
         }
         else if (TouchTrigger.isFAN)
         {
@@ -92,6 +98,7 @@ public class handmenubehavior : MonoBehaviour
             textMother.SetActive(false);
             textPSU.SetActive(false);
             textSSD.SetActive(false);
+            textNewDefault.SetActive(false);
         }
         else if (TouchTrigger.isPSU)
         {
@@ -104,10 +111,25 @@ public class handmenubehavior : MonoBehaviour
             textProc.SetActive(false);
             textMother.SetActive(false);
             textSSD.SetActive(false);
+            textNewDefault.SetActive(false);
         }
         else if (TouchTrigger.isSSD)
         {
             textSSD.SetActive(true);
+            textPSU.SetActive(false);
+            textFAN.SetActive(false);
+            textCPU_fan.SetActive(false);
+            textRAM.SetActive(false);
+            textVideocard.SetActive(false);
+            textDefault.SetActive(false);
+            textProc.SetActive(false);
+            textMother.SetActive(false);
+            textNewDefault.SetActive(false);
+        }
+        else if (SpawnCaseCover.CheckObjInCase())
+        {
+            textNewDefault.SetActive(true);
+            textSSD.SetActive(false);
             textPSU.SetActive(false);
             textFAN.SetActive(false);
             textCPU_fan.SetActive(false);
@@ -128,6 +150,7 @@ public class handmenubehavior : MonoBehaviour
             textFAN.SetActive(false);
             textPSU.SetActive(false);
             textSSD.SetActive(false);
+            textNewDefault.SetActive(false);
         }
     }
 }

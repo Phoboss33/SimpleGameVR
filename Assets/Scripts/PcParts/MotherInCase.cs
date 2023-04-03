@@ -8,6 +8,7 @@ public class MotherInCase : MonoBehaviour
     public Transform motherBoard;
     public GameObject motgerBoardObj;
     private bool her = true;
+    public static bool inCase = false;
     private void OnTriggerEnter(Collider other)
     {
 
@@ -21,6 +22,7 @@ public class MotherInCase : MonoBehaviour
             other.gameObject.GetComponent<Rigidbody>().isKinematic = false;
             Destroy(other);
             TouchTrigger.isMother = false;
+            inCase = true;
 
             //motherBoard.gameObject.GetComponent<>()
 

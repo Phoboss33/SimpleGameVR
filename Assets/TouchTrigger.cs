@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Valve.VR;
 
 public class TouchTrigger : MonoBehaviour
 {
@@ -13,37 +14,40 @@ public class TouchTrigger : MonoBehaviour
     public static bool isPSU = false;
     public static bool isSSD = false;
 
+    public SteamVR_Input_Sources handType;
+    public SteamVR_Action_Boolean buttonAction;
+
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("CPU"))
+        if (other.gameObject.CompareTag("CPU") && buttonAction.GetStateDown(handType))
         {
             isProc = true;
         }
-        if (other.gameObject.CompareTag("Motherboard"))
+        if (other.gameObject.CompareTag("Motherboard") && buttonAction.GetStateDown(handType))
         {
             isMother = true;
         }
-        if (other.gameObject.CompareTag("VideoCard"))
+        if (other.gameObject.CompareTag("VideoCard") && buttonAction.GetStateDown(handType))
         {
             isVideocard = true;
         }
-        if (other.gameObject.CompareTag("RAM"))     // фикс бага с оперативкой, возможно добавить теги ram1 и ram2
+        if (other.gameObject.CompareTag("RAM") && buttonAction.GetStateDown(handType) )    
         {
             isRAM = true;
         }
-        if (other.gameObject.CompareTag("CPU_cooler"))
+        if (other.gameObject.CompareTag("CPU_cooler") && buttonAction.GetStateDown(handType))
         {
             isCPU_fan = true;
         }
-        if (other.gameObject.CompareTag("FAN"))
+        if (other.gameObject.CompareTag("FAN") && buttonAction.GetStateDown(handType))
         {
             isFAN = true;
         }
-        if (other.gameObject.CompareTag("PSU"))
+        if (other.gameObject.CompareTag("PSU") && buttonAction.GetStateDown(handType))
         {
             isPSU = true;
         }
-        if (other.gameObject.CompareTag("SSD"))
+        if (other.gameObject.CompareTag("SSD") && buttonAction.GetStateDown(handType))
         {
             isSSD = true;
         }
@@ -63,7 +67,7 @@ public class TouchTrigger : MonoBehaviour
         {
             isVideocard = false;
         }
-        if (other.gameObject.CompareTag("RAM"))
+        if (other.gameObject.CompareTag("RAM") && buttonAction.GetStateUp(handType))
         {
             isRAM = false;
         }
