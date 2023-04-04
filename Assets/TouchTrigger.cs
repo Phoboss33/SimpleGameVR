@@ -13,6 +13,7 @@ public class TouchTrigger : MonoBehaviour
     public static bool isFAN = false;
     public static bool isPSU = false;
     public static bool isSSD = false;
+    public static bool isCaseCover = false;
 
     public SteamVR_Input_Sources handType;
     public SteamVR_Action_Boolean buttonAction;
@@ -50,6 +51,10 @@ public class TouchTrigger : MonoBehaviour
         if (other.gameObject.CompareTag("SSD") && buttonAction.GetStateDown(handType))
         {
             isSSD = true;
+        }
+        if (other.gameObject.CompareTag("CaseCover") && buttonAction.GetStateDown(handType))
+        {
+            isCaseCover = true;
         }
     }
 
@@ -90,6 +95,10 @@ public class TouchTrigger : MonoBehaviour
         if (other.gameObject.CompareTag("SSD"))
         {
             isSSD = false;
+        }
+        if (other.gameObject.CompareTag("CaseCover"))
+        {
+            isCaseCover = false;
         }
     }
 }

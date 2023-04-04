@@ -9,6 +9,11 @@ public class SpawnFan : MonoBehaviour
 
     public static int spawnCount = 0;
 
+    private void Start()
+    {
+        spawnCount = 0;
+    }
+
     private void Update()
     {
         // Если максимальное количество объектов не достигнуто

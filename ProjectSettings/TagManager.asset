@@ -17,6 +17,7 @@ TagManager:
   - Hand
   - RAM1
   - CaseCover
+  - Restart
   layers:
   - Default
   - TransparentFX

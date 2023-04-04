@@ -9,6 +9,13 @@ public class SpawnRAM : MonoBehaviour
 
     public static int spawnCount = 0;
 
+    // Добавить спавн вначале
+    private void Start()
+    {
+        spawnCount = 0;
+    }
+
+
     private void Update()
     {
         // Если максимальное количество объектов не достигнуто
