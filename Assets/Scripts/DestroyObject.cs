@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class DestroyObject : MonoBehaviour
 {
+    public AudioSource audioSource;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("VideoCard"))
         {
+            audioSource.Play();
             TriggerSpawnGPU.spawnCount--;
             Destroy(other.gameObject);
         }
         if (other.gameObject.CompareTag("Motherboard"))
         {
+            audioSource.Play();
             TriggerSpawnMotherboard.spawnCount--;
             Destroy(other.gameObject);
 
@@ -44,36 +48,43 @@ public class DestroyObject : MonoBehaviour
         }
         if (other.gameObject.CompareTag("PSU"))
         {
+            audioSource.Play();
             SpawnPSU.spawnCount--;
             Destroy(other.gameObject);
         }
         if (other.gameObject.CompareTag("SSD"))
         {
+            audioSource.Play();
             SpawnSSD.spawnCount--;
             Destroy(other.gameObject);
         }
         if (other.gameObject.CompareTag("RAM"))
         {
+            audioSource.Play();
             SpawnRAM.spawnCount--;
             Destroy(other.gameObject);
         }
         if (other.gameObject.CompareTag("CPU_cooler"))
         {
+            audioSource.Play();
             SpawnCPU_cooler.spawnCount--;
             Destroy(other.gameObject);
         }
         if (other.gameObject.CompareTag("FAN"))
         {
+            audioSource.Play();
             SpawnFan.spawnCount--;
             Destroy(other.gameObject);
         }
         if (other.gameObject.CompareTag("CPU"))
         {
+            audioSource.Play();
             SpawnCPU.spawnCount--;
             Destroy(other.gameObject);
         }
         if (other.gameObject.CompareTag("CaseCover"))
         {
+            audioSource.Play();
             SpawnCaseCover.spawnCount--;
             Destroy(other.gameObject);
         }

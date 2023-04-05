@@ -7,10 +7,12 @@ public class TriggerFan : MonoBehaviour
     public GameObject fan;
     public static bool inPlace = false;
 
+    public AudioSource audioSource;
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("FAN"))
         {
+            audioSource.Play();
             fan.SetActive(true);
             inPlace = true;
             Destroy(other.gameObject);

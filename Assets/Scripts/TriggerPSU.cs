@@ -8,10 +8,13 @@ public class TriggerPSU : MonoBehaviour
     public GameObject backWall;
     public static bool inPlace = false;
 
+    public AudioSource audioSource;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("PSU"))
         {
+            audioSource.Play();
             PSU.SetActive(true);
             inPlace = true;
             backWall.SetActive(true);

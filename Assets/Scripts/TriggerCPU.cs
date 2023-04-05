@@ -9,6 +9,7 @@ public class TriggerCPU : MonoBehaviour
     public GameObject prefabObj;
     public GameObject Trigger;
     public static bool inPlace = false;
+    public AudioSource audioSource; 
 
     private void Start()
     {
@@ -20,6 +21,7 @@ public class TriggerCPU : MonoBehaviour
 
         if (other.gameObject.CompareTag("CPU"))
         {
+            audioSource.Play();
             Trigger.SetActive(true);
             inPlace = true;
             prefabObj.SetActive(true);

@@ -7,6 +7,7 @@ public class TriggerRightRAM : MonoBehaviour
     public GameObject prefabObj;
     public GameObject Trigger;
     public static bool inPlace = false;
+    public AudioSource audioSource;
 
     private void Start()
     {
@@ -19,6 +20,7 @@ public class TriggerRightRAM : MonoBehaviour
 
         if (other.gameObject.CompareTag("RAM"))
         {
+            audioSource.Play();
             inPlace = true;
             prefabObj.SetActive(true);
             Trigger.SetActive(false);
