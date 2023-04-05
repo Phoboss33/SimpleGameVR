@@ -7,6 +7,7 @@ public class TriggerHandMenuHead : MonoBehaviour
     public GameObject handMenu;
 
     public static bool inHead = true;
+    public GameObject head;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -15,6 +16,11 @@ public class TriggerHandMenuHead : MonoBehaviour
             inHead = true;
             handMenu.SetActive(true);
             //Destroy(other.gameObject);
+        }
+        if (other.gameObject.CompareTag("Hat"))
+        {
+            head.SetActive(true);
+            Destroy(other.gameObject);
         }
     }
 

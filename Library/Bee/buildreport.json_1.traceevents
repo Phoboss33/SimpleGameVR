@@ -1,0 +1,707 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1680682381952547, "dur": 616451, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680682381952776, "dur": 8603, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680682381961382, "dur": 31147, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680682381992532, "dur": 404033, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680682382396568, "dur": 158828, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680682382555398, "dur": 13599, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680682382569450, "dur": 10, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1680682382264928, "dur": 116731, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680682382265800, "dur": 38804, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680682382366644, "dur": 4373, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680682382371022, "dur": 10630, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680682382371649, "dur": 9344, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680682382385257, "dur": 1182, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680682382384650, "dur": 1808, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680682382569573, "dur": 222, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1680682382424511, "dur":846, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382425361, "dur":70, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1680682382425460, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1680682382425478, "dur":433, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1680682382425937, "dur":518, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382426455, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539615, "dur":12, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539627, "dur":93, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539721, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539725, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539739, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539748, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539755, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539758, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539766, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539769, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539776, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539778, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539784, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539787, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539793, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539795, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539801, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539803, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539809, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539811, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539816, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539818, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539825, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539827, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539836, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539858, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382539892, "dur":2079, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1680682382426051, "dur":416, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682382426470, "dur":4950, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682382431435, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1680682382431442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682382433155, "dur":278, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1680682382433439, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1680682382433485, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682382433689, "dur":2306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1680682382435996, "dur":495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1680682382436493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682382436644, "dur":2443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1680682382439140, "dur":5632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1680682382444775, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682382444781, "dur":2447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1680682382447268, "dur":534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382447806, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682382447812, "dur":2371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382450219, "dur":611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382450833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682382450839, "dur":1960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382452832, "dur":827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382453662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682382453668, "dur":2454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382456186, "dur":782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382456989, "dur":91, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682382457086, "dur":2742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382459882, "dur":705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382460590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682382460596, "dur":2420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382463043, "dur":583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382463629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682382463635, "dur":2344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382466017, "dur":349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382466370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682382466378, "dur":2272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382468688, "dur":995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382469685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682382469690, "dur":2180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382471910, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382472255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682382472261, "dur":2702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382474994, "dur":609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382475605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682382475611, "dur":1895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382477672, "dur":877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382478552, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682382478557, "dur":1895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382480497, "dur":577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/SteamVR_Actions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382481077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682382481084, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/SteamVR_Actions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382482136, "dur":1770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382483909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682382483934, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382485343, "dur":5356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Plugins/x86_64/openvr_api.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382490702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682382490709, "dur":2017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Plugins/x86_64/openvr_api.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682382492804, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/binding_index_hmd.json" }}
+,{ "pid":12345, "tid":1, "ts":1680682382493041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682382493048, "dur":965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/binding_index_hmd.json" }}
+,{ "pid":12345, "tid":1, "ts":1680682382494057, "dur":786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/bindings_holographic_controller.json" }}
+,{ "pid":12345, "tid":1, "ts":1680682382494846, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682382494853, "dur":2025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/bindings_holographic_controller.json" }}
+,{ "pid":12345, "tid":1, "ts":1680682382496926, "dur":796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1680682382497726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682382497733, "dur":10866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1680682382508640, "dur":30737, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680682382426132, "dur":358, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680682382426490, "dur":4937, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680682382431435, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1680682382431795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680682382435401, "dur":3834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1680682382439265, "dur":12931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark.exe" }}
+,{ "pid":12345, "tid":2, "ts":1680682382452199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680682382452204, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark.exe" }}
+,{ "pid":12345, "tid":2, "ts":1680682382453904, "dur":505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682382454412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680682382454417, "dur":2298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682382456753, "dur":468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682382457224, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680682382457229, "dur":2956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682382460323, "dur":853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682382461180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680682382461186, "dur":2468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682382463693, "dur":760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682382464455, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680682382464459, "dur":2975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682382467473, "dur":705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682382468181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680682382468188, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682382469640, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682382469953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680682382469959, "dur":2373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682382472375, "dur":500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682382472877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680682382472881, "dur":2097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682382475009, "dur":555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682382475567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680682382475574, "dur":1902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682382477515, "dur":646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682382478163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680682382478168, "dur":2165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682382480370, "dur":349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Collections.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682382480723, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680682382480760, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Collections.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682382482022, "dur":14258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682382496284, "dur":132, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680682382496443, "dur":10864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682382507343, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1680682382507457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680682382507464, "dur":2655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1680682382510157, "dur":29370, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682382426178, "dur":387, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682382426565, "dur":4893, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682382431458, "dur":608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1680682382432070, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682382435029, "dur":3885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1680682382438949, "dur":3504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382442456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682382443348, "dur":1183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382444560, "dur":1578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382446141, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682382446149, "dur":1748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382447935, "dur":537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382448474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682382448479, "dur":2329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382450844, "dur":670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382451516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682382451520, "dur":1799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382453392, "dur":801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382454196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682382454202, "dur":2402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382456631, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382457028, "dur":59, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682382457092, "dur":1875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382458994, "dur":684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382459682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682382459688, "dur":1769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382461711, "dur":682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382462397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682382462408, "dur":2287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382464730, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382465000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682382465004, "dur":3035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382468070, "dur":1577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382469650, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682382469655, "dur":2092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382471784, "dur":526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382472312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682382472317, "dur":2374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382474725, "dur":7683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382482410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682382482414, "dur":2463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382484920, "dur":790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382485713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682382485719, "dur":1660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382487419, "dur":3756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382491180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682382491188, "dur":2250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682382493705, "dur":840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/bindings_knuckles.json" }}
+,{ "pid":12345, "tid":3, "ts":1680682382494548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682382494554, "dur":1495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/bindings_knuckles.json" }}
+,{ "pid":12345, "tid":3, "ts":1680682382496089, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1680682382496170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682382496176, "dur":5883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1680682382502104, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1680682382502149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682382502160, "dur":4786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1680682382506994, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1680682382507060, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682382507065, "dur":2547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1680682382509691, "dur":29902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682382426081, "dur":394, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682382426475, "dur":4947, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682382431436, "dur":875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1680682382432314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682382434471, "dur":1433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1680682382435953, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1680682382436079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682382436818, "dur":2554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1680682382439406, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1680682382439502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682382439783, "dur":6674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1680682382446540, "dur":760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382447303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682382447309, "dur":2290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382449636, "dur":709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382450347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682382450352, "dur":1821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382452212, "dur":947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382453163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682382453169, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382454568, "dur":598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382455170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682382455177, "dur":1913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382457150, "dur":572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382457725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682382457731, "dur":2409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382460183, "dur":833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382461020, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682382461025, "dur":2393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382463453, "dur":552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382464007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682382464012, "dur":2395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382466435, "dur":605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382467041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682382467046, "dur":2442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382469553, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382469862, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682382469866, "dur":2845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382472747, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382473110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682382473114, "dur":2178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382475323, "dur":749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382476075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682382476081, "dur":1578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382477701, "dur":542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382478247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682382478252, "dur":1824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382480111, "dur":2826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382482940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682382482945, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382484207, "dur":1248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/MeshDecimator.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382485457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682382485461, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/MeshDecimator.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382487115, "dur":1146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Plugins/x86_64/cosmos_camera.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382488264, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682382488455, "dur":1854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Plugins/x86_64/cosmos_camera.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682382490335, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/binding_vive.json" }}
+,{ "pid":12345, "tid":4, "ts":1680682382490665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682382490952, "dur":2062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/binding_vive.json" }}
+,{ "pid":12345, "tid":4, "ts":1680682382493054, "dur":895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/bindings_vive_cosmos_controller.json" }}
+,{ "pid":12345, "tid":4, "ts":1680682382493978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682382493985, "dur":1792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/bindings_vive_cosmos_controller.json" }}
+,{ "pid":12345, "tid":4, "ts":1680682382495813, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680682382495852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682382495856, "dur":10580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680682382506474, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1680682382506529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682382506545, "dur":2773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1680682382509356, "dur":30074, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682382426119, "dur":363, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682382426482, "dur":4947, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682382431435, "dur":403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1680682382431842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682382435404, "dur":4049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1680682382439510, "dur":2591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Valve.Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382442104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682382442172, "dur":3630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Valve.Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382445866, "dur":588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382446457, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682382446494, "dur":2866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382449397, "dur":685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382450086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682382450092, "dur":1801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382451932, "dur":825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382452761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682382452767, "dur":1825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382454629, "dur":544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382455177, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682382455183, "dur":1990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382457213, "dur":663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382457879, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682382457885, "dur":3208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382461207, "dur":789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382461999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682382462006, "dur":1958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382464025, "dur":499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382464526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682382464531, "dur":3335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382467893, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382468380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682382468386, "dur":2111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382470533, "dur":472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382471008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682382471014, "dur":2354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382473406, "dur":1121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382474530, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682382474535, "dur":2112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382476687, "dur":813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382477503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682382477509, "dur":2158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382479721, "dur":644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382480368, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682382480373, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382481553, "dur":3727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382485283, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682382485288, "dur":2197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682382487525, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/UnitySubsystems/XRSDKOpenVR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":5, "ts":1680682382487645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682382488302, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/UnitySubsystems/XRSDKOpenVR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":5, "ts":1680682382489752, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/binding_vive_tracker_camera.json" }}
+,{ "pid":12345, "tid":5, "ts":1680682382489960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682382490767, "dur":2172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/binding_vive_tracker_camera.json" }}
+,{ "pid":12345, "tid":5, "ts":1680682382492983, "dur":733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/binding_holographic_hmd.json" }}
+,{ "pid":12345, "tid":5, "ts":1680682382493720, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682382493726, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/binding_holographic_hmd.json" }}
+,{ "pid":12345, "tid":5, "ts":1680682382495222, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1680682382495266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682382495363, "dur":1901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1680682382497302, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1680682382497348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682382497354, "dur":11732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1680682382509131, "dur":30310, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680682382426166, "dur":331, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680682382426497, "dur":4931, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680682382431434, "dur":1242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1680682382432696, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680682382435399, "dur":3635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1680682382439065, "dur":77989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680682382517062, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680682382517073, "dur":21333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680682382538441, "dur":973, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682382426208, "dur":366, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682382426574, "dur":4857, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682382431434, "dur":634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1680682382432071, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682382435045, "dur":3535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1680682382438615, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1680682382438687, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682382438691, "dur":2251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1680682382440972, "dur":1617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682382442592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682382442598, "dur":3303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682382445940, "dur":591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682382446535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682382446541, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682382448340, "dur":707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682382449049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682382449054, "dur":1875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682382451002, "dur":654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682382451659, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682382451663, "dur":1628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682382453334, "dur":688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682382454025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682382454029, "dur":2607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682382456665, "dur":545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682382457213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682382457219, "dur":2643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682382459900, "dur":768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682382460671, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682382460678, "dur":2019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682382462737, "dur":498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682382463239, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682382463252, "dur":1674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682382464957, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682382465247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682382465253, "dur":3089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682382468383, "dur":672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682382469059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682382469065, "dur":1972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682382471080, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682382471445, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682382471449, "dur":2271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682382473767, "dur":2705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682382476475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682382476481, "dur":2304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682382478838, "dur":6242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682382485083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682382485089, "dur":2794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682382487921, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":7, "ts":1680682382488048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682382488435, "dur":1588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":7, "ts":1680682382490076, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/binding_vive_cosmos.json" }}
+,{ "pid":12345, "tid":7, "ts":1680682382490436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682382491053, "dur":2118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/binding_vive_cosmos.json" }}
+,{ "pid":12345, "tid":7, "ts":1680682382493210, "dur":740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/bindings_oculus_touch.json" }}
+,{ "pid":12345, "tid":7, "ts":1680682382493987, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682382493992, "dur":1732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/bindings_oculus_touch.json" }}
+,{ "pid":12345, "tid":7, "ts":1680682382495764, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1680682382495805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682382495810, "dur":42951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1680682382538785, "dur":622, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682382426238, "dur":347, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682382426585, "dur":4861, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682382431446, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1680682382431628, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682382434717, "dur":2707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1680682382437529, "dur":584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1680682382438133, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682382438137, "dur":2129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1680682382440295, "dur":1932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382442231, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682382442239, "dur":4077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382446373, "dur":669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382447044, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682382447048, "dur":2578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382449672, "dur":630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382450322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682382450329, "dur":1815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382452186, "dur":801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382452990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682382452996, "dur":2489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382455514, "dur":508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382456026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682382456032, "dur":1307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382457372, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382457749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682382457753, "dur":2982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382460888, "dur":830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382461721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682382461746, "dur":2204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382464011, "dur":549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382464563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682382464568, "dur":3425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382468032, "dur":848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382468883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682382468889, "dur":2566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382471480, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382471752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682382471758, "dur":2200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382473996, "dur":510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382474509, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682382474514, "dur":2177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382476751, "dur":1315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382478069, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682382478078, "dur":2123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382480253, "dur":2918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382483175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682382483181, "dur":1988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382485207, "dur":41244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Plugins/x86_64/aristo_interface.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382526461, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682382526483, "dur":12821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Plugins/x86_64/aristo_interface.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682382539343, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1680682382539346, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682382426270, "dur":322, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682382426592, "dur":4838, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682382431435, "dur":759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1680682382432196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682382435512, "dur":2786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1680682382438329, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1680682382438402, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682382438407, "dur":2507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1680682382440943, "dur":1495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682382442441, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682382442448, "dur":4441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682382446931, "dur":506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682382447440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682382447447, "dur":2960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682382450447, "dur":872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682382451321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682382451325, "dur":2140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682382453536, "dur":640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682382454179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682382454184, "dur":2488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682382456708, "dur":614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682382457325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682382457330, "dur":2537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682382459910, "dur":596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682382460528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682382460535, "dur":2842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682382463410, "dur":626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682382464038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682382464044, "dur":2714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682382466804, "dur":644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.XR.OpenVR.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682382467451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682382467457, "dur":2397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.XR.OpenVR.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682382469885, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682382470366, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682382470404, "dur":2391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682382472828, "dur":409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682382473257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682382473262, "dur":2537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682382475839, "dur":1009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682382476852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682382476858, "dur":2899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682382479797, "dur":3287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682382483086, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682382483097, "dur":2165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682382485336, "dur":8964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682382494303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682382494309, "dur":2612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682382496969, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1680682382497122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682382497130, "dur":2534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1680682382499711, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1680682382499752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682382499761, "dur":4632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1680682382504468, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1680682382504515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682382504526, "dur":4006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1680682382508577, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1680682382508723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682382508729, "dur":1133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1680682382509895, "dur":29661, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682382426298, "dur":301, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682382426599, "dur":4858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682382431458, "dur":1252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1680682382432713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682382434795, "dur":2613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1680682382437462, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1680682382437577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682382437582, "dur":2469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1680682382440092, "dur":1788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682382441884, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682382442094, "dur":2933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682382445071, "dur":849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682382445923, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682382445932, "dur":1561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682382447532, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682382447976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682382447982, "dur":2310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682382450330, "dur":3215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682382453568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682382453575, "dur":2338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682382455989, "dur":920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682382456912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682382456921, "dur":2028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682382458979, "dur":573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682382459556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682382459564, "dur":1814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682382461415, "dur":2503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682382463942, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682382463950, "dur":3565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682382467571, "dur":691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682382468265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682382468271, "dur":2275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682382470578, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682382470881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682382470885, "dur":2244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682382473154, "dur":451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682382473607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682382473613, "dur":2231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682382475891, "dur":2474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682382478379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682382478385, "dur":2517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682382480941, "dur":4226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/SteamVR.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682382485171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682382485176, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/SteamVR.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682382486826, "dur":7126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Plugins/x86_64/ucrtbased.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682382494000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682382494006, "dur":2049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Plugins/x86_64/ucrtbased.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682382496098, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1680682382496140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682382496146, "dur":18952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1680682382515145, "dur":24272, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682382426335, "dur":271, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682382426606, "dur":4819, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682382431436, "dur":1020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1680682382432459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682382435176, "dur":3340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1680682382438544, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1680682382438615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682382438620, "dur":1845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1680682382440505, "dur":1769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382442279, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682382442286, "dur":3364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382445690, "dur":877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382446569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682382446573, "dur":1659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382448279, "dur":690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382448972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682382448976, "dur":1680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382450703, "dur":596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382451301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682382451306, "dur":1955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382453300, "dur":744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382454046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682382454051, "dur":1803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382455915, "dur":871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382456790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682382456796, "dur":1446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382458270, "dur":624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382458898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682382458907, "dur":2047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382460997, "dur":452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382461451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682382461457, "dur":2651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382464150, "dur":461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382464614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682382464619, "dur":2951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382467638, "dur":653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382468293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682382468299, "dur":1918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382470246, "dur":498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382470747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682382470752, "dur":2054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382472842, "dur":513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382473358, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682382473363, "dur":2653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382476079, "dur":421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Runtime.Extensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382476503, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682382476508, "dur":2043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Runtime.Extensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382478671, "dur":1451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382480126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682382480133, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382481661, "dur":1847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382483512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682382483519, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382485052, "dur":2093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Plugins/x86_64/XRSDKOpenVR.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382487148, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682382487737, "dur":1882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Plugins/x86_64/XRSDKOpenVR.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682382489664, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":11, "ts":1680682382489852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682382490145, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":11, "ts":1680682382491256, "dur":646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/binding_rift.json" }}
+,{ "pid":12345, "tid":11, "ts":1680682382491905, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682382492139, "dur":1231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/binding_rift.json" }}
+,{ "pid":12345, "tid":11, "ts":1680682382493413, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/bindings_logitech_stylus.json" }}
+,{ "pid":12345, "tid":11, "ts":1680682382493881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682382493888, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/bindings_logitech_stylus.json" }}
+,{ "pid":12345, "tid":11, "ts":1680682382495250, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":11, "ts":1680682382495307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682382495312, "dur":24619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":11, "ts":1680682382519964, "dur":19445, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682382426361, "dur":266, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682382426627, "dur":4797, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682382431435, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1680682382431681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682382436164, "dur":2836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1680682382439032, "dur":18728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682382457763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682382457823, "dur":4012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682382461891, "dur":591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682382462484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682382462490, "dur":1823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682382464346, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682382464726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682382464733, "dur":3661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682382468436, "dur":561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682382468999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682382469003, "dur":2029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682382471066, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682382471553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682382471559, "dur":2139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682382473726, "dur":437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682382474166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682382474172, "dur":2175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682382476379, "dur":703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682382477086, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682382477110, "dur":2020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682382479163, "dur":8778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682382487945, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682382487950, "dur":1966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682382489960, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/binding_vive_pro.json" }}
+,{ "pid":12345, "tid":12, "ts":1680682382490093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682382490773, "dur":2375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/binding_vive_pro.json" }}
+,{ "pid":12345, "tid":12, "ts":1680682382493185, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/bindings_vive_controller.json" }}
+,{ "pid":12345, "tid":12, "ts":1680682382493375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682382493381, "dur":845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/bindings_vive_controller.json" }}
+,{ "pid":12345, "tid":12, "ts":1680682382494273, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/actions.json" }}
+,{ "pid":12345, "tid":12, "ts":1680682382494439, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682382494444, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/StreamingAssets/SteamVR/actions.json" }}
+,{ "pid":12345, "tid":12, "ts":1680682382496244, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1680682382496369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682382496375, "dur":11419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1680682382507832, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1680682382507868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682382507872, "dur":2652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/student/Desktop/PC BUILD test/PC Build VR for TechnoPark_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1680682382510564, "dur":28817, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682382543234, "dur":1987, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1680682382569848, "dur": 794, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680682382569437, "dur": 1235, "ph": "X", "name": "Write chrome-trace events", "args": {} },

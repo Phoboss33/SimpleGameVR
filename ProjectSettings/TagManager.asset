@@ -18,6 +18,8 @@ TagManager:
   - RAM1
   - CaseCover
   - Restart
+  - Hat
+  - Money
   layers:
   - Default
   - TransparentFX
