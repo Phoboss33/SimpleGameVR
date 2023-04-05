@@ -63,6 +63,7 @@
     <Compile Include="Assets\LoadSceneScript.cs" />
     <Compile Include="Assets\ViveHandTracking\Scripts\Engine\VHTSettings.cs" />
     <Compile Include="Assets\ViveHandTracking\Scripts\Utility\ModelRenderer.cs" />
+    <Compile Include="Assets\MoneyTrigger.cs" />
     <Compile Include="Assets\Scripts\SpawnTarget.cs" />
     <Compile Include="Assets\ViveHandTracking\Scripts\Utility\HandStateChecker.cs" />
     <Compile Include="Assets\ViveHandTracking\Scripts\Utility\InputModule\BaseHandInput.cs" />
@@ -161,6 +162,7 @@
     <Compile Include="Assets\Scripts\ShowFPS.cs" />
     <Compile Include="Assets\ShowConltrolles.cs" />
     <Compile Include="Assets\ViveHandTracking\Scripts\CustomGesture\SingleHandGestureProducer.cs" />
+    <Compile Include="Assets\EasterBehavior.cs" />
     <Compile Include="Assets\Scripts\PcParts\MotherInCase.cs" />
     <Compile Include="Assets\ViveHandTracking\Scripts\Engine\HandTrackingEngine.cs" />
     <Compile Include="Assets\AutoLOD\Scripts\AutoLOD.cs" />
@@ -182,8 +184,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\ViveHandTracking\Scripts\GestureProvider.cs" />
     <Compile Include="Assets\EnterHandToRestart.cs" />
-    <Compile Include="Assets\MoneyTrigger.cs" />
-    <Compile Include="Assets\EasterBehavior.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

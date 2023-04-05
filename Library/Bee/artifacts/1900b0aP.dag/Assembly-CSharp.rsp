@@ -338,6 +338,7 @@
 "Assets/DeskBehaviorScript.cs"
 "Assets/DisableHints.cs"
 "Assets/DisplayCaseCoverScript.cs"
+"Assets/EasterBehavior.cs"
 "Assets/EnterCaseCover.cs"
 "Assets/EnterCaseTrigger.cs"
 "Assets/EnterHandToRestart.cs"
